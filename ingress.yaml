@@ -15,8 +15,8 @@ spec:
   - host: app.redabokka.online
     http:
       paths:
-      - path: /app
-        pathType: Exact
+      - path: /
+        pathType: Prefix
         backend:
           service:
             name: reddit-service
