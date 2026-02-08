@@ -9,10 +9,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    -  reddit.mostafagheta.online
+    -  app.redabokka.online
     secretName: reddit-tls
   rules:
-  - host: reddit.mostafagheta.online
+  - host: app.redabokka.online
     http:
       paths:
       - path: /
