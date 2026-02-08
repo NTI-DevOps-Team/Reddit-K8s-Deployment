@@ -15,7 +15,7 @@ spec:
   - host: app.redabokka.online
     http:
       paths:
-      - path: /
+      - path: /app
         pathType: Prefix
         backend:
           service:
