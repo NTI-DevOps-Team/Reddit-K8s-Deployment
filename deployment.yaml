@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: reddit
-        image: 734468801857.dkr.ecr.us-east-1.amazonaws.com/my-ecr-repo:21
+        image: 734468801857.dkr.ecr.us-east-1.amazonaws.com/my-ecr-repo:10
         #image: 734468801857.dkr.ecr.us-east-1.amazonaws.com/my-ecr-repo:21
         ports:
         - containerPort: 3000
