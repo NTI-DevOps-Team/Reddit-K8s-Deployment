@@ -9,7 +9,7 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    -  nti.redabokka.online
+    -  prod.redabokka.online
     secretName: reddit-tls
   rules:
   - host: prod.redabokka.online
