@@ -12,7 +12,7 @@ spec:
     -  nti.redabokka.online
     secretName: reddit-tls
   rules:
-  - host: nti.redabokka.online
+  - host: prod.redabokka.online
     http:
       paths:
       - path: /
